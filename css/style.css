@@ -29,7 +29,7 @@ font-weight: normal;
 font-size: 20px;
 }
 .form-control:focus {
-border-color: orangered;
+border-color: orange;
 box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
 .navbar {
@@ -92,7 +92,7 @@ font-size: 19px;
 }
 .navbar .nav .btn-primary, .navbar .nav .btn-primary:active {
 color: #fff;
-background: orangered;
+background: orange;
 padding-top: 8px;
 padding-bottom: 6px;
 vertical-align: middle;
@@ -123,7 +123,7 @@ margin-bottom: 8px;
 }
 .navbar ul.nav li.open > a.get-started-btn {
 color: #fff;
-background: orangered !important;
+background: orange !important;
 }
 .navbar .dropdown-menu {
 border-radius: 1px;
@@ -216,7 +216,7 @@ text-align: center;
 line-height: 26px;
 background: #fff;
 display: inline-block;
-border: 1px solid orangered;
+border: 1px solid orange;
 border-radius: 50%;
 position: relative;
 top: -15px;
