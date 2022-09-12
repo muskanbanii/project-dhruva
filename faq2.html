@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ's</title>
+  <link rel="stylesheet" href="faq2style.css">
+
+  <link rel="stylesheet" href='http://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+<body>
+  <div class="accordion">
+     <div class="image-box">
+      <img src="images/png2.png" alt="">
+     </div>
+     <div class="accordion-text">
+      <div class="title">
+        FAQ's
+      </div>
+
+     <ul class="faq-text">
+      <li>
+        <div class="question-arrow">
+          <span class="question">
+            Are the demo classes free?
+          </span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>Yes, they are free. More details about the demo classes will be provided by our counselor.</p>
+        <span class="line"></span>
+      </li>
+
+      <li>
+        <div class="question-arrow">
+          <span class="question">
+            Do all programs have live-doubt solving?
+          </span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>Live doubt-solving feature is available as a part of BAOIAM'S Classes offering.</p>
+        <span class="line"></span>
+      </li>
+
+      <li>
+        <div class="question-arrow">
+          <span class="question">
+            Are BAOIAM'S programs mapped to the school syllabus/curriculum?
+          </span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>Yes, the programs are personalised for students as per the school syllabus.</p>
+        <span class="line"></span>
+      </li>
+
+      <li>
+        <div class="question-arrow">
+          <span class="question">
+            Where can I track my child's progress?
+          </span>
+          <i class="bx bxs-chevron-down arrow"></i>
+        </div>
+        <p>A child's progress can be accessed through the Parent Zone section in the app. A progress report is available for every child and can be accessed by switching the profile.</p>
+        <span class="line"></span>
+        </li>
+
+        <li>
+          <div class="question-arrow">
+            <span class="question">
+              What is a free demo class and how do I register for it?
+            </span>
+            <i class="bx bxs-chevron-down arrow"></i>
+          </div>
+          <p>Your child can attend a free demo class by our top teachers to experience our programmes first-hand. This is a great way to understand BAOIAM'S way of teaching. Our counselor will help book a demo class for you at your convenience.</p>
+          <span class="line"></span>
+          </li>
+     </ul>
+     </div>
+  </div>
+
+<script>
+  let li = document.querySelectorAll(".faq-text li");
+  for (var i=0; i< li.length; i++){
+    li[i].addEventListener("click",(e)=>{
+      let clickedLi;
+      if(e.target.classList.contains("question-arrow")){
+        clickedLi=e.target.parentElement;
+      }else{
+        clickedLi=e.target.parentElement.parentElement
+      }
+      clickedLi.classList.toggle("showAnswer")
+    });
+  }
+</script>
+
+</body>
+</html>
