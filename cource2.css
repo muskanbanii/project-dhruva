@@ -1,0 +1,262 @@
+.inner {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.linee {
+  text-decoration: underline blue;
+}
+
+.img-top {
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.img2-top {
+  width: 30%;
+  height: 30%;
+  object-fit: cover;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.sample-text {
+  margin: auto;
+  top: 0%;
+  left: 0%;
+}
+
+.img-design {
+  background-color: lightsalmon;
+  border-radius: 58% 94% 0% 95% / 0% 93% 0% 100%;
+  height: auto;
+  width: 100%;
+}
+
+.img-center {
+  left: 50%;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 1px red solid;
+}
+.image2 {
+  position: absolute;
+  top: 42%;
+  border: 1px green solid;
+  width: 100%;
+  margin-left: 15px;
+}
+
+.my-text {
+  margin-top: 80px;
+}
+
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.text-div {
+  position: relative;
+}
+
+.text-div h1 {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+}
+
+/* li{
+
+} */
+
+.wavess {
+  background-image: url(images/waves.webp);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+uvp-list ul {
+  display: inline-block;
+  border: solid 1px #bababa;
+  padding: 1rem 2rem;
+  max-width: 320px;
+}
+
+.uvp-list ul {
+  list-style: none;
+}
+
+.uvp-list ul > li {
+  clear: left;
+  padding: 0.5rem 0;
+}
+
+.uvp-list ul > li:before {
+  content: "";
+  height: 40px;
+  width: 40px;
+  display: block;
+  float: left;
+  margin-left: -1.5rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.uvp-list ul > li:before {
+  background: url(images/pen-re);
+  background-size: cover;
+  background-position: center;
+  padding: 0.15rem;
+}
+
+.text-left {
+  margin-left: 4%;
+}
+
+.hex1::before {
+  content: "\2B22";
+  color: hsl(252, 71%, 50%);
+  font-size: 60px;
+}
+
+.hex1 {
+  transform: rotate(-33.86deg);
+  width: 50px;
+  height: 20.44px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.div-right {
+  margin-left: 90%;
+}
+
+.triangle-5 {
+  width: 30px;
+  height: 20px;
+  border-top: solid 20px #4a26da;
+  border-left: solid 20px transparent;
+  border-right: solid 20px transparent;
+  transform: rotate(430deg);
+}
+
+.triangle-6 {
+  width: 30px;
+  height: 20px;
+  border-top: solid 20px #4a26da;
+  border-left: solid 20px transparent;
+  border-right: solid 20px transparent;
+  transform: rotate(-113.75deg);
+}
+.tri-right {
+  margin-left: 80%;
+}
+
+.tri-left {
+  margin-left: 20%;
+}
+/* 
+@media (min-width: 970px) {
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (min-width: 950px) {
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (min-width: 925px) {
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 950px) {
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 950px) {
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+  }
+} */
+
+.main_div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.pencil {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.img-res {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.pen-res {
+  max-width: 50%;
+  max-height: 50%;
+
+  display: block;
+  height: auto;
+}
+
+.navbar-collapse.in {
+  display: block !important;
+}
